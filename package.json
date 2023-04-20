@@ -1,0 +1,25 @@
+{
+  "name": "gnome-bot",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarenella/gnome-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarenella/gnome-bot/issues"
+  },
+  "homepage": "https://github.com/jarenella/gnome-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
