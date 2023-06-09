@@ -31,7 +31,7 @@ client.on("messageCreate", message => {
   if (Helpers.matchesRegex(message)) { //if message matches the "!rtd number" regex format
     const splitStrng = message.content.split(" ");
     const num = splitStrng[1]; //splitStrng is an array
-    if (num > 500) {
+    if (num > 500 || num == 0) {
       return;
     }
     const rngNum = Math.floor(Math.random() * num) + 1 //number generated can be from 0-99 (100 options)
